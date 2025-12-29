@@ -22,7 +22,7 @@ A real-time AI-based proctoring system designed to monitor interviews or exams u
 
 1. **Clone the repository**:
    ```bash
-   git clone https://github.com/yourusername/yolo_interview_monitor.git
+   git clone https://github.com/Lokeswar72/yolo-interview-monitor.git
    cd yolo_interview_monitor
    ```
 

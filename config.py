@@ -1,14 +1,14 @@
+# YOLO Model Configuration
 YOLO_MODEL = "yolov8n.pt"
 
-# Detection confidence
-CONF_THRESHOLD = 0.5
+# Detection Settings
+CONF_THRESHOLD = 0.5  # Confidence threshold for detections
+FRAME_SKIP = 2        # Process every Nth frame for performance
 
-# Performance optimization
-FRAME_SKIP = 2   # process every Nth frame
+# Proctoring Rules
+ALLOWED_CLASSES = ["person"]  # List of allowed object classes
+MAX_PERSONS = 1               # Maximum allowed persons in frame
 
-# Proctoring rules
-ALLOWED_CLASSES = ["person"]   # ONLY allowed object
-MAX_PERSONS = 1                # more than this = alert
-
-# Alert control
-PERSON_ALERT_COOLDOWN = 3      # seconds
+# Alert Settings
+PERSON_ALERT_COOLDOWN = 3.0   # Seconds between repeated person alerts
+ENABLE_LOGGING = True         # Enable violation logging to CSV

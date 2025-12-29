@@ -81,7 +81,6 @@ yolo_interview_monitor/
 │   └── index.html
 ├── logs/                  # Log files
 │   └── violations.csv
-└── __pycache__/           # Python cache
 ```
 
 ## 🤝 Contributing
